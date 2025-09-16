@@ -8,7 +8,8 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && cp dist/index.html dist/404.html",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview",
     "test:unit": "vitest",
     "test:e2e": "nightwatch tests/e2e/*",
@@ -44,6 +45,7 @@
     "@vue/test-utils": "^2.4.6",
     "chromedriver": "^138.0.4",
     "geckodriver": "^5.0.0",
+    "gh-pages": "^6.3.0",
     "jsdom": "^26.1.0",
     "nightwatch": "^3.12.2",
     "prettier": "3.6.2",
