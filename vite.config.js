@@ -8,7 +8,7 @@ import nightwatchPlugin from 'vite-plugin-nightwatch'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue(), vueDevTools(), nightwatchPlugin()],
-  base: '/book-store/',
+  base: '/Book-store/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
