@@ -18,9 +18,49 @@ export default {
             allEvents: [
                 // Engineering
                 {
-                    id: 'e1', title: 'Product Sync', start: '2025-09-16T09:30:00', end: '2025-09-16T10:15:00',
+                    id: 'e1', title: 'Product Sync', start: '2025-09-16T09:30:00', end: '2025-09-18T10:15:00',
                     extendedProps: { userId: 'u_ava', name: 'Ava Rahman', unit: 'Product', position: 'Product Manager', profileUrl: 'https://i.pravatar.cc/100?img=32' }
                 },
+                {
+                    id: 'e16', title: 'Product Sync', start: '2025-09-16T09:30:00', end: '2025-09-16T10:15:00',
+                    extendedProps: { userId: 'u_ava', name: 'Ava Rahman', unit: 'Product', position: 'Product Manager', profileUrl: 'https://i.pravatar.cc/100?img=32' }
+                },
+                {
+                    id: 'e17', title: 'Product Sync', start: '2025-09-16T09:30:00', end: '2025-09-16T10:15:00',
+                    extendedProps: { userId: 'u_ava', name: 'Ava Rahman', unit: 'Product', position: 'Product Manager', profileUrl: 'https://i.pravatar.cc/100?img=32' }
+                },
+                {
+                    id: 'e18', title: 'Product Sync', start: '2025-09-16T09:30:00', end: '2025-09-16T10:15:00',
+                    extendedProps: { userId: 'u_ava', name: 'Ava Rahman', unit: 'Product', position: 'Product Manager', profileUrl: 'https://i.pravatar.cc/100?img=32' }
+                },
+                {
+                    id: 'e19', title: 'Product Sync', start: '2025-09-16T09:30:00', end: '2025-09-16T10:15:00',
+                    extendedProps: { userId: 'u_ava', name: 'Ava Rahman', unit: 'Product', position: 'Product Manager', profileUrl: 'https://i.pravatar.cc/100?img=32' }
+                },
+                {
+                    id: 'e20', title: 'Product Sync', start: '2025-09-16T09:30:00', end: '2025-09-16T10:15:00',
+                    extendedProps: { userId: 'u_ava', name: 'Ava Rahman', unit: 'Product', position: 'Product Manager', profileUrl: 'https://i.pravatar.cc/100?img=32' }
+                },
+                // {
+                //     id: 'e21', title: 'Product Sync', start: '2025-09-16T09:30:00', end: '2025-09-16T10:15:00',
+                //     extendedProps: { userId: 'u_ava', name: 'Ava Rahman', unit: 'Product', position: 'Product Manager', profileUrl: 'https://i.pravatar.cc/100?img=32' }
+                // },
+                // {
+                //     id: 'e22', title: 'Product Sync', start: '2025-09-16T09:30:00', end: '2025-09-16T10:15:00',
+                //     extendedProps: { userId: 'u_ava', name: 'Ava Rahman', unit: 'Product', position: 'Product Manager', profileUrl: 'https://i.pravatar.cc/100?img=32' }
+                // },
+                // {
+                //     id: 'e23', title: 'Product Sync', start: '2025-09-16T09:30:00', end: '2025-09-16T10:15:00',
+                //     extendedProps: { userId: 'u_ava', name: 'Ava Rahman', unit: 'Product', position: 'Product Manager', profileUrl: 'https://i.pravatar.cc/100?img=32' }
+                // },
+                // {
+                //     id: 'e24', title: 'Product Sync', start: '2025-09-16T09:30:00', end: '2025-09-16T10:15:00',
+                //     extendedProps: { userId: 'u_ava', name: 'Ava Rahman', unit: 'Product', position: 'Product Manager', profileUrl: 'https://i.pravatar.cc/100?img=32' }
+                // },
+                // {
+                //     id: 'e25', title: 'Product Sync', start: '2025-09-16T09:30:00', end: '2025-09-16T10:15:00',
+                //     extendedProps: { userId: 'u_ava', name: 'Ava Rahman', unit: 'Product', position: 'Product Manager', profileUrl: 'https://i.pravatar.cc/100?img=32' }
+                // },
                 {
                     id: 'e2', title: 'Design Review', start: '2025-09-17T13:00:00', end: '2025-09-17T14:00:00',
                     extendedProps: { userId: 'u_kenji', name: 'Kenji Ito', unit: 'Design', position: 'Lead Designer', profileUrl: 'https://i.pravatar.cc/100?img=12' }
@@ -221,7 +261,7 @@ export default {
                         <span class="text-h6">{{ selectedEvent.name || 'Unknown User' }}</span>
                         <span class="text-body-2 text-medium-emphasis">
                             {{ selectedEvent.position || '—' }}<span v-if="selectedEvent.unit"> • {{ selectedEvent.unit
-                                }}</span>
+                            }}</span>
                         </span>
                     </div>
                 </v-card-title>
